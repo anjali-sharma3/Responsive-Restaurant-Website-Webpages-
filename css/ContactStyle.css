@@ -1,0 +1,113 @@
+/*This CSS page is only for styling Contact page*/
+
+
+/*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*styling of seat booking and  image*/
+#seat-booking{
+    height: 45%;
+    width: 100%;
+}
+#seat-booking::before{
+    content: "";
+    background: url(/img/img2/contactbg.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 45%;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.5;
+    
+
+}
+#seat-booking #para{
+    padding: 35px;
+    font-size: 2.8rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    
+}
+/*styling of button*/
+.btn{
+    background-color: brown;
+    color: white;
+    height: 50px;
+    width: 330px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    border: 2 px solid white;
+    border-radius: 20px;
+    padding: 10px 0px;
+    margin-left: 50px;
+}
+.btn:hover{
+    background-color: rgb(93, 17, 17);
+}
+
+
+/*styling of form*/
+
+#contact-us .contact-box{
+    border: 2px solid brown;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:150px 50px;
+    background-color:rgb(234, 232, 229)
+}
+/*Styling of Form*/
+.contact-box .form label
+{
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+}
+.contact-box .form input,textarea{
+    font-size: 1.2rem;
+    
+
+}
+.form input{
+    width: 450px;
+    height: 35px;
+    margin:5px
+}
+.form .pnumber{
+    width: 380px;
+}
+.form textarea{
+    display: block;
+    margin: auto;
+}
+.form .submitbtn{
+    background-color: brown;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 300px;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    display: block;
+    margin: 15px auto;
+    cursor: pointer;
+    
+}
+.form .submitbtn:hover{
+    background-color: rgb(101, 21, 21);
+}
+
+
+
+/*Styling of Utility Classes*/
+   .h-primary{
+       
+          font-size: 2.8rem;
+          position: relative;
+          top: 130px;
+}
+   .center{
+       text-align: center;
+}     

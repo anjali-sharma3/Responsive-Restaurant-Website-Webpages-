@@ -1,0 +1,224 @@
+/*CSS reset*/
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+ /*styling of navbar*/
+ #navbar{
+     display: flex;
+     align-items: center;
+     position: sticky;
+ }
+ /*styling of navbar:logo and image*/
+ #logo{
+     margin: 6px 35px;
+ }
+ #logo img{
+     margin: 10px 10px;
+     height: 60px;
+}
+
+
+ /*styling of navbar:List styling*/
+ #navbar ul{
+     display: flex;
+ }
+ #navbar::before{
+     content: "";
+     background-color: black;
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     z-index: -1;
+     opacity: 0.4;
+     top:0px;
+     left:0px;
+ }
+ #navbar ul li{
+     list-style: none;
+     font-size: 1.3rem;
+     
+ }
+ #navbar ul li a{
+     display: block;
+     text-decoration: none;
+     padding: 10px 30px;
+     border-radius: 20px;
+     color: white;
+     font-family: 'Rubik', sans-serif;
+ }
+ #navbar ul li a:hover{
+     color: black;
+     background-color: white;
+     
+ }
+ /*Styling of Home section*/
+ #home{
+     display: flex;
+     flex-direction: column;
+     padding: 5px 200px;
+     align-items: center;
+     justify-content: center;
+     height: 270px;
+    
+    
+ }
+ #home h1{
+     margin-top: 150px;
+ }
+ #home::before{
+    content: "";
+    background:url(/img/img1/bg.jpg) no-repeat center center/cover;
+    height: 85%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+    top:0px;
+    left:0px;
+}
+#home h1{
+    /* margin-top: 130px; */
+    font-size: 3rem;
+    color: white;
+    padding: 12px;
+    font-family: 'Rubik', sans-serif;
+}
+#home p{
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Rubik', sans-serif;   
+}
+
+/*styling of services section*/
+#services{
+    margin: 34px;
+    display: flex;
+
+}
+#services .box{
+    border: 2px solid brown;
+    border-radius: 20px;
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+
+    
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+    
+}
+.services{
+    margin-top: 230px;
+    
+}
+#services .box p{
+    font-family: 'Rubik', sans-serif;  
+    
+}
+/*Styling of our clients section*/
+#our-clients{
+    margin-top: 40px;
+    background-color: rgb(234, 232, 229);
+}
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#clients .clients-info{
+    
+    margin: 35px 25px;
+    padding: 20px 20px;
+
+}
+
+#clients .clients-info img{
+   height: 150px;
+    
+}
+
+
+/*Styling of our partners sections*/
+#partners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#partners .partners-info{
+    
+    margin: 25px 25px;
+    padding: 20px 20px;
+
+}
+
+#partners .partners-info img{
+   height: 200px;
+    
+}
+#our-partners::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+    background: url(/img/img2/im1.jpg) ;
+    
+    height: 60%;
+    width: 100%;
+}
+/*Styling of footer class*/
+.footer{
+    text-align: center;
+    background-color: azure;
+    height: 60px;
+    margin: 10px 0px;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footer p{
+    margin-top: 20px;
+}
+
+ /* styling of utility class*/
+ .h-primary{
+     font-size: 2.3rem;
+     padding: 12px;
+     font-family: 'Rubik', sans-serif;  
+     
+ }
+ .h-secondary{
+     padding: 12px;
+     font-size: 1.8rem;
+     font-family: 'Rubik', sans-serif;  
+ }
+ .btn{
+     padding: 10px 21px;
+     border: 2px solid white;
+     background-color: brown;
+     border-radius: 5px;
+     margin: 18px;
+     color: white;
+     font-weight:  bolder;
+     font-size: 1rem;
+     cursor: pointer;
+     
+ }
+ .btn:hover{
+     background-color: rgb(150, 84, 84);
+     color: antiquewhite;
+ }
+ .center{
+     text-align: center;
+ }
+ 
+ 
+ 
+
+
